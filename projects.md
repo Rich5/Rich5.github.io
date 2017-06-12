@@ -1,11 +1,10 @@
 ---
-id: 21
-title: Projects
-date: 2014-08-06T21:35:57+00:00
-author: Rich
 layout: page
-guid: http://bytesdarkly.com/?page_id=21
+permalink: /projects/
+title: Projects
+description: "List of personal projects"
 ---
+
 **Harness**
 
 Harness is remote access payload with the ability to provide a remote interactive PowerShell interface from a Windows system to virtually any TCP socket. The primary goal of the Harness Project is to provide a remote interface with the same capabilities and overall feel of the native PowerShell executable bundled with the Windows OS.
