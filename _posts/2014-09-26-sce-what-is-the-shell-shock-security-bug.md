@@ -25,11 +25,11 @@ When used in reference to a computer shell then what we&#8217;re talking about i
 
 &nbsp;<figure id="attachment_178" style="width: 402px" class="wp-caption alignnone">
 
-[<img class=" wp-image-178" src="/images/2014/09/winxppro.png" alt="Windows Graphical User Interface is an example of a shell" width="402" height="301" srcset="/images/2014/09/winxppro.png 800w, /images/2014/09/winxppro-300x225.png 300w" sizes="(max-width: 402px) 100vw, 402px" />](/images/2014/09/winxppro.png)</figure> 
+[<img class=" wp-image-178" src="/images/2014/09/winxppro.png" alt="Windows Graphical User Interface is an example of a shell" width="402" height="301" srcset="/images/2014/09/winxppro.png 800w, /images/2014/09/winxppro-300x225.png 300w" sizes="(max-width: 402px) 100vw, 402px" />](/images/2014/09/winxppro.png) 
 
 &nbsp;<figure id="attachment_179" style="width: 407px" class="wp-caption alignnone">
 
-[<img class="wp-image-179" src="/images/2014/09/xp_cli.png" alt="xp_cli" width="407" height="206" srcset="/images/2014/09/xp_cli.png 675w, /images/2014/09/xp_cli-300x152.png 300w" sizes="(max-width: 407px) 100vw, 407px" />](/images/2014/09/xp_cli.png)</figure> 
+[<img class="wp-image-179" src="/images/2014/09/xp_cli.png" alt="xp_cli" width="407" height="206" srcset="/images/2014/09/xp_cli.png 675w, /images/2014/09/xp_cli-300x152.png 300w" sizes="(max-width: 407px) 100vw, 407px" />](/images/2014/09/xp_cli.png) 
 
 &nbsp;
 
@@ -37,7 +37,7 @@ When used in reference to a computer shell then what we&#8217;re talking about i
 
 You will also see &#8220;shell shock&#8221; referred to as the &#8220;bash bug&#8221;, and that&#8217;s because &#8220;bash&#8221; is the name of the shell where the vulnerability was found. Don&#8217;t get too hung up on the name though. It looks similar to the Windows command-line interface shown above, but usually found on computers running Linux and Unix operating systems.  If you&#8217;ve only ever used a Windows computer with the familiar &#8220;Start button&#8221; in the bottom left corner then this may be a mystery to you, but in reality most of the Internet runs on computers that are not like the one you&#8217;re used to seeing. However, if you are a Apple Mac user running OS X then bash is on your computer.<figure id="attachment_186" style="width: 402px" class="wp-caption alignnone">
 
-[<img class=" wp-image-186" src="/images/2014/09/linux_cli.png" alt="Linux command-line shell" width="402" height="270" srcset="/images/2014/09/linux_cli.png 734w, /images/2014/09/linux_cli-300x201.png 300w" sizes="(max-width: 402px) 100vw, 402px" />](/images/2014/09/linux_cli.png)</figure> 
+[<img class=" wp-image-186" src="/images/2014/09/linux_cli.png" alt="Linux command-line shell" width="402" height="270" srcset="/images/2014/09/linux_cli.png 734w, /images/2014/09/linux_cli-300x201.png 300w" sizes="(max-width: 402px) 100vw, 402px" />](/images/2014/09/linux_cli.png) 
 
 &nbsp;
 
