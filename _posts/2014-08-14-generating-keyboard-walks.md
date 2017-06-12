@@ -36,15 +36,15 @@ When I’m referring to keyboard walks what I really mean is using visual patter
 
 &nbsp;<figure id="attachment_47" style="width: 765px" class="wp-caption aligncenter">
 
-[<img class="wp-image-47" src="/images/2014/08/kb_walk1-1024x259.png" alt="kb_walk1" width="765" height="193" srcset="/images/2014/08/kb_walk1-1024x259.png 1024w, /images/2014/08/kb_walk1-300x76.png 300w, /images/2014/08/kb_walk1.png 1050w" sizes="(max-width: 765px) 100vw, 765px" />](/images/2014/08/kb_walk1.png)<figcaption class="wp-caption-text">Simply adding the shift key increases the variation of the walk</figcaption></figure> 
+[<img class="wp-image-47" src="/images/2014/08/kb_walk1-1024x259.png" alt="kb_walk1" width="765" height="193" srcset="/images/2014/08/kb_walk1-1024x259.png 1024w, /images/2014/08/kb_walk1-300x76.png 300w, /images/2014/08/kb_walk1.png 1050w" sizes="(max-width: 765px) 100vw, 765px" />](/images/2014/08/kb_walk1.png)</figure> 
 
 &nbsp;<figure id="attachment_51" style="width: 765px" class="wp-caption aligncenter">
 
-[<img class="wp-image-51" src="/images/2014/08/kb_walk21-1024x262.png" alt="" width="765" height="196" srcset="/images/2014/08/kb_walk21-1024x262.png 1024w, /images/2014/08/kb_walk21-300x76.png 300w, /images/2014/08/kb_walk21.png 1043w" sizes="(max-width: 765px) 100vw, 765px" />](/images/2014/08/kb_walk21.png)<figcaption class="wp-caption-text">Some users think they’re being creative with patterns like this</figcaption></figure> 
+[<img class="wp-image-51" src="/images/2014/08/kb_walk21-1024x262.png" alt="" width="765" height="196" srcset="/images/2014/08/kb_walk21-1024x262.png 1024w, /images/2014/08/kb_walk21-300x76.png 300w, /images/2014/08/kb_walk21.png 1043w" sizes="(max-width: 765px) 100vw, 765px" />](/images/2014/08/kb_walk21.png)</figure> 
 
 &nbsp;<figure id="attachment_46" style="width: 786px" class="wp-caption aligncenter">
 
-[<img class="wp-image-46" src="/images/2014/08/kb_walk3-1024x262.png" alt="kb_walk3" width="786" height="201" srcset="/images/2014/08/kb_walk3-1024x262.png 1024w, /images/2014/08/kb_walk3-300x76.png 300w, /images/2014/08/kb_walk3.png 1050w" sizes="(max-width: 786px) 100vw, 786px" />](/images/2014/08/kb_walk3.png)<figcaption class="wp-caption-text">Walks of length 16 characters are becoming more common</figcaption></figure> 
+[<img class="wp-image-46" src="/images/2014/08/kb_walk3-1024x262.png" alt="kb_walk3" width="786" height="201" srcset="/images/2014/08/kb_walk3-1024x262.png 1024w, /images/2014/08/kb_walk3-300x76.png 300w, /images/2014/08/kb_walk3.png 1050w" sizes="(max-width: 786px) 100vw, 786px" />](/images/2014/08/kb_walk3.png)</figure> 
 
 &nbsp;
 

@@ -43,7 +43,7 @@ Going one step further a Proof-of-Concept (PoC) decryption script is included in
 
 &nbsp;<figure id="attachment_468" style="width: 548px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-468" src="//images/2016/08/aruba_decrypt_example.png" alt="Decrypting POC" width="548" height="180" srcset="//images/2016/08/aruba_decrypt_example.png 548w, //images/2016/08/aruba_decrypt_example-300x99.png 300w" sizes="(max-width: 548px) 100vw, 548px" />](//images/2016/08/aruba_decrypt_example.png)<figcaption class="wp-caption-text">Decrypting POC</figcaption></figure> 
+[<img class="size-full wp-image-468" src="//images/2016/08/aruba_decrypt_example.png" alt="Decrypting POC" width="548" height="180" srcset="//images/2016/08/aruba_decrypt_example.png 548w, //images/2016/08/aruba_decrypt_example-300x99.png 300w" sizes="(max-width: 548px) 100vw, 548px" />](//images/2016/08/aruba_decrypt_example.png)</figure> 
 
 Ok, so encrypting passwords (vs. hashing) is, unfortunately, a fairly common practice. The [Adobe breach in 2013](https://nakedsecurity.sophos.com/2013/11/04/anatomy-of-a-password-disaster-adobes-giant-sized-cryptographic-blunder/) revealed similar findings, but in that case the decryption key was never revealed publicly. In response to this disclosure Aruba issued an [advisory](http://www.arubanetworks.com/assets/alert/ARUBA-PSA-2016-004.txt) that, well, sort of acknowledged the issue, but down played the impact. Below are a few partial quotes from the advisory:
 
@@ -51,15 +51,15 @@ Ok, so encrypting passwords (vs. hashing) is, unfortunately, a fairly common pra
 
 This is an interesting response when you consider the following Google search<figure id="attachment_470" style="width: 864px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-470" src="//images/2016/08/aruba_google_search1.png" alt="Google Dork for Aruba Configs" width="864" height="457" srcset="//images/2016/08/aruba_google_search1.png 864w, //images/2016/08/aruba_google_search1-300x159.png 300w, //images/2016/08/aruba_google_search1-768x406.png 768w" sizes="(max-width: 864px) 100vw, 864px" />](//images/2016/08/aruba_google_search1.png)<figcaption class="wp-caption-text">Google Dork for Aruba Configs</figcaption></figure> 
+[<img class="size-full wp-image-470" src="//images/2016/08/aruba_google_search1.png" alt="Google Dork for Aruba Configs" width="864" height="457" srcset="//images/2016/08/aruba_google_search1.png 864w, //images/2016/08/aruba_google_search1-300x159.png 300w, //images/2016/08/aruba_google_search1-768x406.png 768w" sizes="(max-width: 864px) 100vw, 864px" />](//images/2016/08/aruba_google_search1.png)</figure> 
 
 Clicking on one of these links from the Aruba Support forum takes me to a config file that someone has uploaded, I&#8217;m presuming, in conjunction with a support question. Going one step further, if I narrow the scope down to just _arubanetworks.com_ we get 107 results alone! At least one of these configs has been posted in the last month (Jul 27, 2016) so I&#8217;m assuming this issue hasn&#8217;t been brought up with Aruba customers.<figure id="attachment_474" style="width: 523px" class="wp-caption aligncenter">
 
-[<img class="wp-image-474 size-full" src="//images/2016/08/config_wpa_passphrase.png" alt="config_wpa_passphrase" width="523" height="350" srcset="//images/2016/08/config_wpa_passphrase.png 523w, //images/2016/08/config_wpa_passphrase-300x201.png 300w" sizes="(max-width: 523px) 100vw, 523px" />](//images/2016/08/config_wpa_passphrase.png)<figcaption class="wp-caption-text">Config snippet</figcaption></figure> 
+[<img class="wp-image-474 size-full" src="//images/2016/08/config_wpa_passphrase.png" alt="config_wpa_passphrase" width="523" height="350" srcset="//images/2016/08/config_wpa_passphrase.png 523w, //images/2016/08/config_wpa_passphrase-300x201.png 300w" sizes="(max-width: 523px) 100vw, 523px" />](//images/2016/08/config_wpa_passphrase.png)</figure> 
 
 &nbsp;<figure id="attachment_471" style="width: 770px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-471" src="//images/2016/08/aruba_google_search2.png" alt="More configs" width="770" height="254" srcset="//images/2016/08/aruba_google_search2.png 770w, //images/2016/08/aruba_google_search2-300x99.png 300w, //images/2016/08/aruba_google_search2-768x253.png 768w" sizes="(max-width: 770px) 100vw, 770px" />](//images/2016/08/aruba_google_search2.png)<figcaption class="wp-caption-text">Search results from ArubaNetworks.com</figcaption></figure> 
+[<img class="size-full wp-image-471" src="//images/2016/08/aruba_google_search2.png" alt="More configs" width="770" height="254" srcset="//images/2016/08/aruba_google_search2.png 770w, //images/2016/08/aruba_google_search2-300x99.png 300w, //images/2016/08/aruba_google_search2-768x253.png 768w" sizes="(max-width: 770px) 100vw, 770px" />](//images/2016/08/aruba_google_search2.png)</figure> 
 
 &nbsp;
 
@@ -96,7 +96,7 @@ The next step is to download all the configs. A simple Bash 1-liner will take ca
 
 &nbsp;<figure id="attachment_467" style="width: 721px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-467" src="//images/2016/08/aruba_config_download.png" alt="Quick one liner to download all the configs" width="721" height="323" srcset="//images/2016/08/aruba_config_download.png 721w, //images/2016/08/aruba_config_download-300x134.png 300w" sizes="(max-width: 721px) 100vw, 721px" />](//images/2016/08/aruba_config_download.png)<figcaption class="wp-caption-text">One liner to download all the configs</figcaption></figure> 
+[<img class="size-full wp-image-467" src="//images/2016/08/aruba_config_download.png" alt="Quick one liner to download all the configs" width="721" height="323" srcset="//images/2016/08/aruba_config_download.png 721w, //images/2016/08/aruba_config_download-300x134.png 300w" sizes="(max-width: 721px) 100vw, 721px" />](//images/2016/08/aruba_config_download.png)</figure> 
 
 &nbsp;
 
@@ -137,11 +137,11 @@ Next we need to extract the hashes. There are many ways to do this, but I chose 
 
 Now that we have a file full of hashes we can use the PoC Python code to recover some of the passwords. In this case I was able decrypt 99 passwords and another 62 hashes were filtered out. The filtered hashes are MD5 or other formats not recoverable with the Python script used here.<figure id="attachment_465" style="width: 736px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-465" src="//images/2016/08/aruab_decrypt_file.png" alt="Decrypting " width="736" height="172" srcset="//images/2016/08/aruab_decrypt_file.png 736w, //images/2016/08/aruab_decrypt_file-300x70.png 300w" sizes="(max-width: 736px) 100vw, 736px" />](//images/2016/08/aruab_decrypt_file.png)<figcaption class="wp-caption-text">Decrypting</figcaption></figure> 
+[<img class="size-full wp-image-465" src="//images/2016/08/aruab_decrypt_file.png" alt="Decrypting " width="736" height="172" srcset="//images/2016/08/aruab_decrypt_file.png 736w, //images/2016/08/aruab_decrypt_file-300x70.png 300w" sizes="(max-width: 736px) 100vw, 736px" />](//images/2016/08/aruab_decrypt_file.png)</figure> 
 
 &nbsp;<figure id="attachment_469" style="width: 723px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-469" src="//images/2016/08/aruba_decrypt_result.png" alt="Verbose decrypt" width="723" height="289" srcset="//images/2016/08/aruba_decrypt_result.png 723w, //images/2016/08/aruba_decrypt_result-300x120.png 300w" sizes="(max-width: 723px) 100vw, 723px" />](//images/2016/08/aruba_decrypt_result.png)<figcaption class="wp-caption-text">Verbose decrypt</figcaption></figure> 
+[<img class="size-full wp-image-469" src="//images/2016/08/aruba_decrypt_result.png" alt="Verbose decrypt" width="723" height="289" srcset="//images/2016/08/aruba_decrypt_result.png 723w, //images/2016/08/aruba_decrypt_result-300x120.png 300w" sizes="(max-width: 723px) 100vw, 723px" />](//images/2016/08/aruba_decrypt_result.png)</figure> 
 
 &nbsp;
 
@@ -149,7 +149,7 @@ Just from the results above we can see the usual offenders like _1234qwer, aruba
 
 &nbsp;<figure id="attachment_466" style="width: 685px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-466" src="//images/2016/08/aruab_statsgen.png" alt="PACK statsgen.py" width="685" height="437" srcset="//images/2016/08/aruab_statsgen.png 685w, //images/2016/08/aruab_statsgen-300x191.png 300w" sizes="(max-width: 685px) 100vw, 685px" />](//images/2016/08/aruab_statsgen.png)<figcaption class="wp-caption-text">PACK statsgen.py</figcaption></figure> 
+[<img class="size-full wp-image-466" src="//images/2016/08/aruab_statsgen.png" alt="PACK statsgen.py" width="685" height="437" srcset="//images/2016/08/aruab_statsgen.png 685w, //images/2016/08/aruab_statsgen-300x191.png 300w" sizes="(max-width: 685px) 100vw, 685px" />](//images/2016/08/aruab_statsgen.png)</figure> 
 
 &nbsp;
 
