@@ -60,7 +60,7 @@ Once installed start the framework by running:
 
 &nbsp;
 
-[<img class="aligncenter size-full wp-image-358" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_main.png" alt="harness_main" width="533" height="424" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_main.png 533w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_main-300x239.png 300w" sizes="(max-width: 533px) 100vw, 533px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_main.png)
+[<img class="aligncenter size-full wp-image-358" src="images/2015/10/harness_main.png" alt="harness_main" width="533" height="424" srcset="images/2015/10/harness_main.png 533w, images/2015/10/harness_main-300x239.png 300w" sizes="(max-width: 533px) 100vw, 533px" />](images/2015/10/harness_main.png)
 
 &nbsp;
 
@@ -68,7 +68,7 @@ Once installed start the framework by running:
 
 Harness is bundled in a small modular framework written in Python; however, the intent is for users to ultimately incorporate the server into their own toolsets if useful. With so many tools, frameworks, etc. there are far more refined security testing frameworks available.  Typing **_show modules_** will display the available modules:
 
-[<img class="aligncenter size-full wp-image-362" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_showmodules.png" alt="harness_showmodules" width="722" height="334" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_showmodules.png 722w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_showmodules-300x139.png 300w" sizes="(max-width: 722px) 100vw, 722px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_showmodules.png)
+[<img class="aligncenter size-full wp-image-362" src="images/2015/10/harness_showmodules.png" alt="harness_showmodules" width="722" height="334" srcset="images/2015/10/harness_showmodules.png 722w, images/2015/10/harness_showmodules-300x139.png 300w" sizes="(max-width: 722px) 100vw, 722px" />](images/2015/10/harness_showmodules.png)
 
 &nbsp;
 
@@ -76,7 +76,7 @@ Harness is bundled in a small modular framework written in Python; however, the 
 
 Generating payloads is fairly straight forward. To load a module type **_load <module name>_** to enter into the module sub-prompt. Then using the familiar **_show_** and **_set_** commands you can configure the payload. All modules are executed by typing **run** at the prompt.  Payload modules will then ask you to specify a location to save the file.
 
-[<img class="aligncenter size-full wp-image-357" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_load_module_x86exe.png" alt="harness_load_module_x86exe" width="724" height="388" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_load_module_x86exe.png 724w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_load_module_x86exe-300x161.png 300w" sizes="(max-width: 724px) 100vw, 724px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_load_module_x86exe.png)
+[<img class="aligncenter size-full wp-image-357" src="images/2015/10/harness_load_module_x86exe.png" alt="harness_load_module_x86exe" width="724" height="388" srcset="images/2015/10/harness_load_module_x86exe.png 724w, images/2015/10/harness_load_module_x86exe-300x161.png 300w" sizes="(max-width: 724px) 100vw, 724px" />](images/2015/10/harness_load_module_x86exe.png)
 
 It’s up to the user to determine how to get the payload on the target. Executable payloads may be dropped to disk, and reflective payloads can be injected into a process using various techniques including <a href="https://www.rapid7.com/db/modules/post/windows/manage/reflective_dll_inject" target="_blank">Metasploit&#8217;s reflective dll inject module</a>. In the future delivery modules will be included to take advantage of the usual attack vectors (staged payload, macro, PowerShell download, etc).
 
@@ -86,7 +86,7 @@ It’s up to the user to determine how to get the payload on the target. Executa
 
 Loading the native handler is similar to any other module. Simply set the IP and PORT you want to listen on and type run.
 
-[<img class="aligncenter size-large wp-image-360" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_handler-1024x384.png" alt="harness_run_handler" width="700" height="263" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_handler-1024x384.png 1024w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_handler-300x113.png 300w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_handler.png 1104w" sizes="(max-width: 700px) 100vw, 700px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_handler.png)
+[<img class="aligncenter size-large wp-image-360" src="images/2015/10/harness_run_handler-1024x384.png" alt="harness_run_handler" width="700" height="263" srcset="images/2015/10/harness_run_handler-1024x384.png 1024w, images/2015/10/harness_run_handler-300x113.png 300w, images/2015/10/harness_run_handler.png 1104w" sizes="(max-width: 700px) 100vw, 700px" />](images/2015/10/harness_run_handler.png)
 
 As you can see the handler module is forced to run the background by design, and you now have a listener running on port 80. Multiple connections can be handled by the same handler. By default the handler is listening for SSL connections. This is not required, but should you want to use SSL you’ll need to generate your own self-signed certificates, and set the CERT\_PATH and KEY\_PATH variables accordingly.
 
@@ -101,7 +101,7 @@ On Linux a simple way to generate a self-signed certificate is with the followin
 
 Currently the payload is a reverse shell, although there’s code for a bind shell already implemented in the source, and could easily be used if someone is motivated enough. Once the payload is executed a session is registered with the framework and is available with the session command.
 
-[<img class="aligncenter size-full wp-image-355" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_gaining_shell.png" alt="harness_gaining_shell" width="923" height="380" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_gaining_shell.png 923w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_gaining_shell-300x124.png 300w" sizes="(max-width: 923px) 100vw, 923px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_gaining_shell.png)
+[<img class="aligncenter size-full wp-image-355" src="images/2015/10/harness_gaining_shell.png" alt="harness_gaining_shell" width="923" height="380" srcset="images/2015/10/harness_gaining_shell.png 923w, images/2015/10/harness_gaining_shell-300x124.png 300w" sizes="(max-width: 923px) 100vw, 923px" />](images/2015/10/harness_gaining_shell.png)
 
 Typing **_session <session number>_** will present you with the familiar PowerShell prompt. Harness is a completely custom host implemented in C# and C++. That means that all the features of the native PowerShell.exe had to be implemented by hand. Most of the host methods have been implemented in some capacity, but not all, and certainly not as well as the Microsoft developers did with the native executable. What this means is that most users will not notice much difference in their experience, but some of the more complex scripts may not function as expected. It’s impossible to test all the scripts that any given user may try. So if you come across a bug or strange behavior please submit a bug report on Github. As with all things I recommend testing thoroughly in the lab before trying out a technique on a target system.
 
@@ -117,11 +117,11 @@ Allows the user to seamlessly import any PowerShell module remotely without requ
 
 ### Usage: ^import-module <path to ps1 file>
 
-[<img class="aligncenter size-full wp-image-356" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_import_module.png" alt="harness_import_module" width="1014" height="156" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_import_module.png 1014w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_import_module-300x46.png 300w" sizes="(max-width: 1014px) 100vw, 1014px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_import_module.png)
+[<img class="aligncenter size-full wp-image-356" src="images/2015/10/harness_import_module.png" alt="harness_import_module" width="1014" height="156" srcset="images/2015/10/harness_import_module.png 1014w, images/2015/10/harness_import_module-300x46.png 300w" sizes="(max-width: 1014px) 100vw, 1014px" />](images/2015/10/harness_import_module.png)
 
 The framework will take care of base64 encoding the file and sending it across the wire. In the event there is file corruption, during transfer, the Harness payload will usually alert you that there is a parse error and to try again. Once a module has been imported you may call the functions as usual. The example below show calling _I**nvoke-AllChecks**_ from <a href="https://github.com/PowerShellEmpire/PowerTools/tree/master/PowerUp" target="_blank">PowerUp</a>.
 
-[<img class="aligncenter size-full wp-image-361" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_PowerUp.png" alt="harness_run_PowerUp" width="658" height="310" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_PowerUp.png 658w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_PowerUp-300x141.png 300w" sizes="(max-width: 658px) 100vw, 658px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_run_PowerUp.png)
+[<img class="aligncenter size-full wp-image-361" src="images/2015/10/harness_run_PowerUp.png" alt="harness_run_PowerUp" width="658" height="310" srcset="images/2015/10/harness_run_PowerUp.png 658w, images/2015/10/harness_run_PowerUp-300x141.png 300w" sizes="(max-width: 658px) 100vw, 658px" />](images/2015/10/harness_run_PowerUp.png)
 
 ## ^End and Multiline Input
 
@@ -129,11 +129,11 @@ One of the nice features of the native PowerShell.exe in that users can enter mu
 
 ### Usage: ^end
 
-[<img class="aligncenter size-full wp-image-359" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_multiline_input.png" alt="harness_multiline_input" width="702" height="292" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_multiline_input.png 702w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_multiline_input-300x125.png 300w" sizes="(max-width: 702px) 100vw, 702px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_multiline_input.png)
+[<img class="aligncenter size-full wp-image-359" src="images/2015/10/harness_multiline_input.png" alt="harness_multiline_input" width="702" height="292" srcset="images/2015/10/harness_multiline_input.png 702w, images/2015/10/harness_multiline_input-300x125.png 300w" sizes="(max-width: 702px) 100vw, 702px" />](images/2015/10/harness_multiline_input.png)
 
 In the example below I have a typo that caused a parse error. Since I’m not able to complete the script the accumulator will never return out of the sub-prompt loop. Rather than kill the shell the **_^end_** command allows you to break out of the loop cleanly without terminating the shell.
 
-[<img class="aligncenter size-full wp-image-353" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_end_command.png" alt="harness_end_command" width="846" height="135" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_end_command.png 846w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_end_command-300x48.png 300w" sizes="(max-width: 846px) 100vw, 846px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_end_command.png)
+[<img class="aligncenter size-full wp-image-353" src="images/2015/10/harness_end_command.png" alt="harness_end_command" width="846" height="135" srcset="images/2015/10/harness_end_command.png 846w, images/2015/10/harness_end_command-300x48.png 300w" sizes="(max-width: 846px) 100vw, 846px" />](images/2015/10/harness_end_command.png)
 
 ## ^sleep
 
@@ -141,7 +141,7 @@ The **_^sleep_** command allows the user to suspend the shell and schedule a cal
 
 ### Usage: ^sleep [+Xd|h|m|s] | [dd/mm/yyyy hh:mm ]
 
-[<img class="aligncenter size-full wp-image-363" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_sleep.png" alt="harness_sleep" width="947" height="255" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_sleep.png 947w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_sleep-300x81.png 300w" sizes="(max-width: 947px) 100vw, 947px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_sleep.png)
+[<img class="aligncenter size-full wp-image-363" src="images/2015/10/harness_sleep.png" alt="harness_sleep" width="947" height="255" srcset="images/2015/10/harness_sleep.png 947w, images/2015/10/harness_sleep-300x81.png 300w" sizes="(max-width: 947px) 100vw, 947px" />](images/2015/10/harness_sleep.png)
 
 &nbsp;
 
@@ -153,7 +153,7 @@ All commands sent to the Harness payload are piped to the Out-String cmdlet to f
 
 ###                ^disable-format
 
-[<img class="aligncenter size-full wp-image-354" src="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_formating.png" alt="harness_formating" width="983" height="472" srcset="http://bytesdarkly.com/wp-content/uploads/2015/10/harness_formating.png 983w, http://bytesdarkly.com/wp-content/uploads/2015/10/harness_formating-300x144.png 300w" sizes="(max-width: 983px) 100vw, 983px" />](http://bytesdarkly.com/wp-content/uploads/2015/10/harness_formating.png)
+[<img class="aligncenter size-full wp-image-354" src="images/2015/10/harness_formating.png" alt="harness_formating" width="983" height="472" srcset="images/2015/10/harness_formating.png 983w, images/2015/10/harness_formating-300x144.png 300w" sizes="(max-width: 983px) 100vw, 983px" />](images/2015/10/harness_formating.png)
 
 &nbsp;
 

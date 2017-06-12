@@ -19,7 +19,7 @@ For those that have never heard of Cobalt Strike I highly suggest heading over 
 
 Cobalt Strike is really good at taking care of the routine tasks for you. Setting up listeners is as simple as a few clicks and then specifying a name, payload type, IP, and port. The real payoff  comes later when you&#8217;re generating payloads and spawning sessions on various team servers; the way Cobalt Strike manages all this is an amazing time saver. More on that later.<figure id="attachment_239" style="width: 640px" class="wp-caption aligncenter">
 
-[<img class="size-large wp-image-239" src="http://bytesdarkly.com/wp-content/uploads/2014/11/listeners-1024x567.png" alt="Adding and Editing Listeners" width="640" height="354" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/listeners-1024x567.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/11/listeners-300x166.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/11/listeners.png 1173w" sizes="(max-width: 640px) 100vw, 640px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/listeners.png)<figcaption class="wp-caption-text">Adding and Editing Listeners</figcaption></figure> 
+[<img class="size-large wp-image-239" src="images/2014/11/listeners-1024x567.png" alt="Adding and Editing Listeners" width="640" height="354" srcset="images/2014/11/listeners-1024x567.png 1024w, images/2014/11/listeners-300x166.png 300w, images/2014/11/listeners.png 1173w" sizes="(max-width: 640px) 100vw, 640px" />](images/2014/11/listeners.png)<figcaption class="wp-caption-text">Adding and Editing Listeners</figcaption></figure> 
 
 ## Beacon Payloads
 
@@ -27,11 +27,11 @@ Beacon is Cobalt Strike&#8217;s asymmetric post exploitation tool, and  for ad
 
 &nbsp;<figure id="attachment_237" style="width: 640px" class="wp-caption aligncenter">
 
-[<img class="size-large wp-image-237" src="http://bytesdarkly.com/wp-content/uploads/2014/11/create_beacon-1024x572.png" alt="Creating Beacon payloads" width="640" height="357" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/create_beacon-1024x572.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/11/create_beacon-300x167.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/11/create_beacon.png 1171w" sizes="(max-width: 640px) 100vw, 640px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/create_beacon.png)<figcaption class="wp-caption-text">Creating Beacon payloads</figcaption></figure> 
+[<img class="size-large wp-image-237" src="images/2014/11/create_beacon-1024x572.png" alt="Creating Beacon payloads" width="640" height="357" srcset="images/2014/11/create_beacon-1024x572.png 1024w, images/2014/11/create_beacon-300x167.png 300w, images/2014/11/create_beacon.png 1171w" sizes="(max-width: 640px) 100vw, 640px" />](images/2014/11/create_beacon.png)<figcaption class="wp-caption-text">Creating Beacon payloads</figcaption></figure> 
 
 &nbsp;<figure id="attachment_248" style="width: 640px" class="wp-caption aligncenter">
 
-[<img class="size-large wp-image-248" src="http://bytesdarkly.com/wp-content/uploads/2014/11/beacons-e1415804809673-1024x266.png" alt="Beacon Call-back" width="640" height="166" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/beacons-e1415804809673-1024x266.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/11/beacons-e1415804809673-300x78.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/11/beacons-e1415804809673.png 1169w" sizes="(max-width: 640px) 100vw, 640px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/beacons-e1415804809673.png)<figcaption class="wp-caption-text">Beacon Call-back</figcaption></figure> 
+[<img class="size-large wp-image-248" src="images/2014/11/beacons-e1415804809673-1024x266.png" alt="Beacon Call-back" width="640" height="166" srcset="images/2014/11/beacons-e1415804809673-1024x266.png 1024w, images/2014/11/beacons-e1415804809673-300x78.png 300w, images/2014/11/beacons-e1415804809673.png 1169w" sizes="(max-width: 640px) 100vw, 640px" />](images/2014/11/beacons-e1415804809673.png)<figcaption class="wp-caption-text">Beacon Call-back</figcaption></figure> 
 
 &nbsp;
 
@@ -39,17 +39,17 @@ Once implanted on a target, Beacon is able to covertly execute commands and othe
 
 &nbsp;<figure id="attachment_241" style="width: 633px" class="wp-caption aligncenter">
 
-[<img class="wp-image-241" src="http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp2.png" alt="PowerUp2" width="633" height="279" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp2.png 726w, http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp2-300x132.png 300w" sizes="(max-width: 633px) 100vw, 633px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp2.png)<figcaption class="wp-caption-text">Calling Invoke-AllChecks from PowerUp</figcaption></figure> 
+[<img class="wp-image-241" src="images/2014/11/PowerUp2.png" alt="PowerUp2" width="633" height="279" srcset="images/2014/11/PowerUp2.png 726w, images/2014/11/PowerUp2-300x132.png 300w" sizes="(max-width: 633px) 100vw, 633px" />](images/2014/11/PowerUp2.png)<figcaption class="wp-caption-text">Calling Invoke-AllChecks from PowerUp</figcaption></figure> 
 
 &nbsp;
 
 &nbsp;<figure id="attachment_242" style="width: 621px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-242" src="http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp3.png" alt="PowerUp results" width="621" height="328" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp3.png 621w, http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp3-300x158.png 300w" sizes="(max-width: 621px) 100vw, 621px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/PowerUp3.png)<figcaption class="wp-caption-text">PowerUp results</figcaption></figure> 
+[<img class="size-full wp-image-242" src="images/2014/11/PowerUp3.png" alt="PowerUp results" width="621" height="328" srcset="images/2014/11/PowerUp3.png 621w, images/2014/11/PowerUp3-300x158.png 300w" sizes="(max-width: 621px) 100vw, 621px" />](images/2014/11/PowerUp3.png)<figcaption class="wp-caption-text">PowerUp results</figcaption></figure> 
 
 &nbsp;<figure id="attachment_238" style="width: 683px" class="wp-caption aligncenter">
 
-[<img class=" wp-image-238" src="http://bytesdarkly.com/wp-content/uploads/2014/11/Invoke-Mimikatz.png" alt="Importing Invoke-Mimikatz.ps1 from Powersploit" width="683" height="251" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/Invoke-Mimikatz.png 876w, http://bytesdarkly.com/wp-content/uploads/2014/11/Invoke-Mimikatz-300x110.png 300w" sizes="(max-width: 683px) 100vw, 683px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/Invoke-Mimikatz.png)<figcaption class="wp-caption-text">Importing Invoke-Mimikatz.ps1 from Powersploit</figcaption></figure> 
+[<img class=" wp-image-238" src="images/2014/11/Invoke-Mimikatz.png" alt="Importing Invoke-Mimikatz.ps1 from Powersploit" width="683" height="251" srcset="images/2014/11/Invoke-Mimikatz.png 876w, images/2014/11/Invoke-Mimikatz-300x110.png 300w" sizes="(max-width: 683px) 100vw, 683px" />](images/2014/11/Invoke-Mimikatz.png)<figcaption class="wp-caption-text">Importing Invoke-Mimikatz.ps1 from Powersploit</figcaption></figure> 
 
 &nbsp;
 
@@ -57,7 +57,7 @@ One last feature of Beacon I would like to highlight it&#8217;s ability to chain
 
 &nbsp;<figure id="attachment_234" style="width: 635px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-234" src="http://bytesdarkly.com/wp-content/uploads/2014/11/Beacon_link.png" alt="Beacon linking" width="635" height="322" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/Beacon_link.png 635w, http://bytesdarkly.com/wp-content/uploads/2014/11/Beacon_link-300x152.png 300w" sizes="(max-width: 635px) 100vw, 635px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/Beacon_link.png)<figcaption class="wp-caption-text">Beacon link command</figcaption></figure> 
+[<img class="size-full wp-image-234" src="images/2014/11/Beacon_link.png" alt="Beacon linking" width="635" height="322" srcset="images/2014/11/Beacon_link.png 635w, images/2014/11/Beacon_link-300x152.png 300w" sizes="(max-width: 635px) 100vw, 635px" />](images/2014/11/Beacon_link.png)<figcaption class="wp-caption-text">Beacon link command</figcaption></figure> 
 
 &nbsp;
 
@@ -75,7 +75,7 @@ Cobalt Strike  supports the ability to connect to team servers to share session
 
 &nbsp;<figure id="attachment_243" style="width: 560px" class="wp-caption aligncenter">
 
-[<img class="wp-image-243" src="http://bytesdarkly.com/wp-content/uploads/2014/11/spawn.png" alt="spawn" width="560" height="406" srcset="http://bytesdarkly.com/wp-content/uploads/2014/11/spawn.png 942w, http://bytesdarkly.com/wp-content/uploads/2014/11/spawn-300x217.png 300w" sizes="(max-width: 560px) 100vw, 560px" />](http://bytesdarkly.com/wp-content/uploads/2014/11/spawn.png)<figcaption class="wp-caption-text">Spawning a new session to a listener</figcaption></figure> 
+[<img class="wp-image-243" src="images/2014/11/spawn.png" alt="spawn" width="560" height="406" srcset="images/2014/11/spawn.png 942w, images/2014/11/spawn-300x217.png 300w" sizes="(max-width: 560px) 100vw, 560px" />](images/2014/11/spawn.png)<figcaption class="wp-caption-text">Spawning a new session to a listener</figcaption></figure> 
 
 &nbsp;
 
