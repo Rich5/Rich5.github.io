@@ -36,15 +36,15 @@ When I’m referring to keyboard walks what I really mean is using visual patter
 
 &nbsp;<figure id="attachment_47" style="width: 765px" class="wp-caption aligncenter">
 
-[<img class="wp-image-47" src="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk1-1024x259.png" alt="kb_walk1" width="765" height="193" srcset="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk1-1024x259.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk1-300x76.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk1.png 1050w" sizes="(max-width: 765px) 100vw, 765px" />](http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk1.png)<figcaption class="wp-caption-text">Simply adding the shift key increases the variation of the walk</figcaption></figure> 
+[<img class="wp-image-47" src="images/2014/08/kb_walk1-1024x259.png" alt="kb_walk1" width="765" height="193" srcset="images/2014/08/kb_walk1-1024x259.png 1024w, images/2014/08/kb_walk1-300x76.png 300w, images/2014/08/kb_walk1.png 1050w" sizes="(max-width: 765px) 100vw, 765px" />](images/2014/08/kb_walk1.png)<figcaption class="wp-caption-text">Simply adding the shift key increases the variation of the walk</figcaption></figure> 
 
 &nbsp;<figure id="attachment_51" style="width: 765px" class="wp-caption aligncenter">
 
-[<img class="wp-image-51" src="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk21-1024x262.png" alt="" width="765" height="196" srcset="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk21-1024x262.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk21-300x76.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk21.png 1043w" sizes="(max-width: 765px) 100vw, 765px" />](http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk21.png)<figcaption class="wp-caption-text">Some users think they’re being creative with patterns like this</figcaption></figure> 
+[<img class="wp-image-51" src="images/2014/08/kb_walk21-1024x262.png" alt="" width="765" height="196" srcset="images/2014/08/kb_walk21-1024x262.png 1024w, images/2014/08/kb_walk21-300x76.png 300w, images/2014/08/kb_walk21.png 1043w" sizes="(max-width: 765px) 100vw, 765px" />](images/2014/08/kb_walk21.png)<figcaption class="wp-caption-text">Some users think they’re being creative with patterns like this</figcaption></figure> 
 
 &nbsp;<figure id="attachment_46" style="width: 786px" class="wp-caption aligncenter">
 
-[<img class="wp-image-46" src="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk3-1024x262.png" alt="kb_walk3" width="786" height="201" srcset="http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk3-1024x262.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk3-300x76.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk3.png 1050w" sizes="(max-width: 786px) 100vw, 786px" />](http://bytesdarkly.com/wp-content/uploads/2014/08/kb_walk3.png)<figcaption class="wp-caption-text">Walks of length 16 characters are becoming more common</figcaption></figure> 
+[<img class="wp-image-46" src="images/2014/08/kb_walk3-1024x262.png" alt="kb_walk3" width="786" height="201" srcset="images/2014/08/kb_walk3-1024x262.png 1024w, images/2014/08/kb_walk3-300x76.png 300w, images/2014/08/kb_walk3.png 1050w" sizes="(max-width: 786px) 100vw, 786px" />](images/2014/08/kb_walk3.png)<figcaption class="wp-caption-text">Walks of length 16 characters are becoming more common</figcaption></figure> 
 
 &nbsp;
 
@@ -122,7 +122,7 @@ for each node in graph {
 
 Here’s a quick visual demo of what this algorithm is doing
 
-[<img class="alignnone size-full wp-image-58" src="http://bytesdarkly.com/wp-content/uploads/2014/08/output_TFHQE5.gif" alt="output_TFHQE5" width="800" height="450" />](http://bytesdarkly.com/wp-content/uploads/2014/08/output_TFHQE5.gif)
+[<img class="alignnone size-full wp-image-58" src="images/2014/08/output_TFHQE5.gif" alt="output_TFHQE5" width="800" height="450" />](images/2014/08/output_TFHQE5.gif)
 
 All source files for this method can be found on github. QwertyTreeWalker.py takes the following arguments:
 
@@ -157,7 +157,7 @@ Running the following command:
 
 will bring up an interactive prompt similar to what’s shown below
 
-[<img class="alignnone size-large wp-image-40" src="http://bytesdarkly.com/wp-content/uploads/2014/08/method1_output-1024x334.png" alt="method1_output" width="640" height="208" srcset="http://bytesdarkly.com/wp-content/uploads/2014/08/method1_output-1024x334.png 1024w, http://bytesdarkly.com/wp-content/uploads/2014/08/method1_output-300x98.png 300w, http://bytesdarkly.com/wp-content/uploads/2014/08/method1_output.png 1092w" sizes="(max-width: 640px) 100vw, 640px" />](http://bytesdarkly.com/wp-content/uploads/2014/08/method1_output.png)
+[<img class="alignnone size-large wp-image-40" src="images/2014/08/method1_output-1024x334.png" alt="method1_output" width="640" height="208" srcset="images/2014/08/method1_output-1024x334.png 1024w, images/2014/08/method1_output-300x98.png 300w, images/2014/08/method1_output.png 1092w" sizes="(max-width: 640px) 100vw, 640px" />](images/2014/08/method1_output.png)
 
 Running in default mode the tree walker script will generate one or more output files containing keyboard walks for each process. If you would like to print to stdout then use the &#8211;stdout command line argument.
 
@@ -281,7 +281,7 @@ The “seed file” I created was just a simple list of 4 character walks that I
 
 &nbsp;
 
-[<img class="alignnone  wp-image-41" src="http://bytesdarkly.com/wp-content/uploads/2014/08/method2.png" alt="method2" width="567" height="360" srcset="http://bytesdarkly.com/wp-content/uploads/2014/08/method2.png 780w, http://bytesdarkly.com/wp-content/uploads/2014/08/method2-300x190.png 300w" sizes="(max-width: 567px) 100vw, 567px" />](http://bytesdarkly.com/wp-content/uploads/2014/08/method2.png)
+[<img class="alignnone  wp-image-41" src="images/2014/08/method2.png" alt="method2" width="567" height="360" srcset="images/2014/08/method2.png 780w, images/2014/08/method2-300x190.png 300w" sizes="(max-width: 567px) 100vw, 567px" />](images/2014/08/method2.png)
 
 &nbsp;
 
