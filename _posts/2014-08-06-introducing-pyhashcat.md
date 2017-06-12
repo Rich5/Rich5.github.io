@@ -11,7 +11,7 @@ categories:
   - Python
 ---
 
-<p>NOTE: This is a cross post from my article on www.sploitmonkey.com>,/p>
+<p>NOTE: This is a cross post from my article on www.sploitmonkey.com></p>
 
 By far my favorite password cracking tool is oclHashcat. It’s extremely fast, easy to use, and provides nearly every feature that I want in a password cracker. If I have GPU cycles available I’ll use oclHashcat otherwise I’ll use hashcat (CPU based) or john. On a recent project I needed to be able to easily manage a lot of captured hashes and try them out against multiple attack methods such as dictionary, hybrid, and markov chains to name a few. oclHashcat supports all of these attack methods (and more!), but what I wanted was a system that would automate my password cracking tasks and managed captured credentials.
 
