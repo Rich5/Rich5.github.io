@@ -95,8 +95,6 @@ On Linux a simple way to generate a self-signed certificate is with the followin
 <pre style="font-family: arial; font-size: 12px; border: 1px dashed #CCCCCC; width: 99%; height: auto; overflow: auto; background: #f0f0f0; padding: 0px; color: #000000; text-align: left; line-height: 20px;"><code style="color: #000000; word-wrap: normal;"> openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.cert  
 </code></pre>
 
-# 
-
 # Shell
 
 Currently the payload is a reverse shell, although there’s code for a bind shell already implemented in the source, and could easily be used if someone is motivated enough. Once the payload is executed a session is registered with the framework and is available with the session command.
@@ -104,8 +102,6 @@ Currently the payload is a reverse shell, although there’s code for a bind she
 [<img class="aligncenter size-full wp-image-355" src="/images/2015/10/harness_gaining_shell.png" alt="harness_gaining_shell" width="923" height="380" srcset="/images/2015/10/harness_gaining_shell.png 923w, /images/2015/10/harness_gaining_shell-300x124.png 300w" sizes="(max-width: 923px) 100vw, 923px" />](/images/2015/10/harness_gaining_shell.png)
 
 Typing **_session <session number>_** will present you with the familiar PowerShell prompt. Harness is a completely custom host implemented in C# and C++. That means that all the features of the native PowerShell.exe had to be implemented by hand. Most of the host methods have been implemented in some capacity, but not all, and certainly not as well as the Microsoft developers did with the native executable. What this means is that most users will not notice much difference in their experience, but some of the more complex scripts may not function as expected. It’s impossible to test all the scripts that any given user may try. So if you come across a bug or strange behavior please submit a bug report on Github. As with all things I recommend testing thoroughly in the lab before trying out a technique on a target system.
-
-# 
 
 # Special Commands
 

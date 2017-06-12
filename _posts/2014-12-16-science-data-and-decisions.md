@@ -41,8 +41,6 @@ With so much information out there it&#8217;s important to establish a list of y
 
 By vetting your information sources you&#8217;re creating a filter that funnels more credible information down to you. This in turn allows you to form more educated opinions and make better decisions. Once you learn to vet your sources you can then start reading more into the actual facts. Many news stories start with something like, &#8220;according to a recent study&#8221;, or  &#8220;according to a recent poll&#8221;, but most people will never go look up the actual conclusions of the original data. When you don&#8217;t take the time to go look up cited data what you&#8217;re saying is that you trust the author to interpret it correctly and report accurate conclusions to you. This is not a problem if you have previously vetted the source, but if you haven&#8217;t then it&#8217;s time to go dig a little deeper.
 
-## 
-
 ## Reading Scientific Publications
 
 Let&#8217;s be honest most scientific papers are less than exciting, and the general public doesn&#8217;t have the time nor inclination to read them. However, with a little effort you can quickly review scientific papers to get a general idea of what the authors are trying to present. Of course if you have the time I recommend reading documents in their entirety, but as a matter of practicality for most people you can just focus on the following sections of most scientific papers.

@@ -10,7 +10,8 @@ categories:
   - Password Cracking
   - Python
 ---
-[NOTE: This is a cross post from my article on www.sploitmonkey.com]
+
+<p>NOTE: This is a cross post from my article on www.sploitmonkey.com>,/p>
 
 By far my favorite password cracking tool is oclHashcat. It’s extremely fast, easy to use, and provides nearly every feature that I want in a password cracker. If I have GPU cycles available I’ll use oclHashcat otherwise I’ll use hashcat (CPU based) or john. On a recent project I needed to be able to easily manage a lot of captured hashes and try them out against multiple attack methods such as dictionary, hybrid, and markov chains to name a few. oclHashcat supports all of these attack methods (and more!), but what I wanted was a system that would automate my password cracking tasks and managed captured credentials.
 
@@ -32,7 +33,7 @@ List of features:
 
 Below are a few examples of what it looks like to use pyHashcat. It runs without output by default, but setting verbose mode will generate input for debugging. It&#8217;s beta right now so if you run into any bugs please let me know.
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
  '''  
       From: cudaExample0.cmd using Python context manager  
  '''  
@@ -46,11 +47,11 @@ Below are a few examples of what it looks like to use pyHashcat. It runs without
       while hashcat.is_running():  
            print hashcat.stdout()     # Simple Stream gobbler
   
-</code></pre>
+```
 
 &nbsp;
 
-<code style="color: black; word-wrap: normal;">&lt;br />
+```
 '''&lt;br />
 From: cudaExample0.cmd without context manager&lt;br />
 '''&lt;br />
@@ -64,9 +65,8 @@ hashcat.hybrid_mask_dict()&lt;br />
 while hashcat.is_running():&lt;br />
 print hashcat.stdout()&lt;br />
 hashcat.stop()&lt;br />
-</code>
-
-<pre><code style="color: black; word-wrap: normal;"> 
+```
+```
 
  '''  
      From: Hybrid-Dictionary attack  
@@ -81,11 +81,11 @@ hashcat.stop()&lt;br />
      while hashcat.is_running():  
          print hashcat.stdout() # Simple Stream gobbler  
 
-</code></pre>
+```
 
 &nbsp;
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
  '''  
       Example with rules  
  '''  
@@ -99,11 +99,10 @@ hashcat.stop()&lt;br />
      while hashcat.is_running():  
          print hashcat.stdout() # Simple Stream gobbler  
 
-</code></pre>
-
+```
 &nbsp;
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
  '''  
       Test example  
  '''  
@@ -115,11 +114,11 @@ hashcat.stop()&lt;br />
      hashcat.hash_type = "NTLM"  
      hashcat.straight(TEST=True)     # Will print stdin arguments without starting process  
 
-</code></pre>
+```
 
 &nbsp;
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
 
  '''  
       Using the start function       
@@ -130,11 +129,11 @@ hashcat.stop()&lt;br />
      hashcat.start(argv=["-m", "1000", "-a", "0", "..\\hashes.hash", "dictionary.dict", "-r", "myrules.rule"])  
      while hashcat.is_running():  
           print hashcat.stdout()  
-</code></pre>
+```
 
 &nbsp;
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
 
  '''  
       Parse outfile example  
@@ -151,4 +150,4 @@ hashcat.stop()&lt;br />
            pass  
      print hashcat.get_hashes(fields=('first', 'second', 'third'))  
 
-</code></pre>
+```

@@ -65,8 +65,6 @@ Much more information about Beacon can be found on the [Cobalt Strike blog.](htt
 
 More on using PowerUp and Powerview can be found on [@HarmJ0y](https://twitter.com/harmj0y)&#8216;s [blog here](http://blog.harmj0y.net/)
 
-## 
-
 ## Team Servers
 
 Cobalt Strike  supports the ability to connect to team servers to share sessions and other data which was especially useful during this engagement. There were instances where I lost access (whether by accident or on purpose :), and needed to regain a foothold on a target. Sometimes it would turn out that another team member had a Beacon deeply implanted calling back very low-and-slow to maintain a long-term persistence on the same target. Rather than take control of that Beacon I simply had to request that a session be passed over to my team server using the _spawn_ command. From the Beacon interactive console you can type _spawn_, which will prompt you to specify a listener to call back to, and viola a new Beacon is on it&#8217;s way. What&#8217;s great is that you can spawn a session to any listener located on any team server to which you are connected. &#8211; very cool!

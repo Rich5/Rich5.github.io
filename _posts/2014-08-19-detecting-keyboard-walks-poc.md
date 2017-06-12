@@ -59,6 +59,7 @@ You&#8217;ll notice that obvious walks like, _qwerty_ and _123456_ are detected,
 
 Passwords containing walks of x length/total possible:
 
+<center>
 <table>
   <tr>
     <td>
@@ -168,7 +169,7 @@ Passwords containing walks of x length/total possible:
     </td>
   </tr>
 </table>
-
+</center>
 *Total possible means candidates of at least length L
 
 &nbsp;

@@ -10,6 +10,7 @@ categories:
   - Password Cracking
   - Python
 ---
+
 pyHashcat v0.5 has been released on github. You can find it [here](https://github.com/Rich5/pyHashcat). If you&#8217;re not familiar with pyHashcat you can read a little about it [here](http://bytesdarkly.com/2014/08/introducing-pyhashcat/).
 
 #### New features:

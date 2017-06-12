@@ -50,8 +50,6 @@ When I’m referring to keyboard walks what I really mean is using visual patter
 
 One of the main problems that struck me when I started this project is how do you programmatically “know” which keys are next to one another? The qwerty keyboard was basically created through trial-and-error to prevent typewriter hammers from getting stuck together; other than that there really isn’t any rhyme or reason to the layout. The rest of this post describes two methods that I used to generate keyboard walks. Method 1 is more academic whereas Method 2 is more practical for password cracking.
 
-**** ****
-
 ## Method 1: Tree Walks
 
 ### Steps:
@@ -65,7 +63,7 @@ To create a directed graph data structure, unfortunately, I had to type one out 
 
 &nbsp;
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
 'S': {'diag_down_left': 'z',
       'diag_down_right': 'c',
       'diag_up_left': 'q',
@@ -84,7 +82,7 @@ To create a directed graph data structure, unfortunately, I had to type one out 
       'shift_right': 'D',
       'shift_up': 'W',
       'up': 'w'},
-</code></pre>
+```
 
 &nbsp;
 
@@ -92,7 +90,7 @@ You can see the entire data structure at <https://github.com/Rich5/Keyboard-Walk
 
 Once I had a data structure to parse I used a modified DLS to walk the tree and record the path along the way. Below is the pseudo code for walking the tree.
 
-<pre><code style="color: black; word-wrap: normal;"> 
+```
 TARGET_DEPTH = X
 for each node in graph {
 	path = “”
@@ -118,7 +116,7 @@ for each node in graph {
         }
 }
 
-</code></pre>
+```
 
 Here’s a quick visual demo of what this algorithm is doing
 
@@ -126,7 +124,7 @@ Here’s a quick visual demo of what this algorithm is doing
 
 All source files for this method can be found on github. QwertyTreeWalker.py takes the following arguments:
 
-<pre><code style="color: black; word-wrap: normal;">
+```
 usage: QwertyTreeWalker.py [-h] [-l [L]] [-p [P]] [-x] [-H] [--stdout]
                            [--noplain]
                            [file_name]
@@ -147,7 +145,7 @@ optional arguments:
   --stdout              Output to screen
   --noplain             Do not print plain text hash
 
-</code></pre>
+```
 
 Running the following command:
 
@@ -165,6 +163,7 @@ One major thing to note here is the shear number of walks that would be produced
 
 &nbsp;
 
+<center>
 <table>
   <tr>
     <td>
@@ -264,6 +263,7 @@ One major thing to note here is the shear number of walks that would be produced
     </td>
   </tr>
 </table>
+</center>
 
 ###### *Using 8 processes on Intel i7-2600 @ 3.40GHz
 
@@ -287,9 +287,9 @@ The “seed file” I created was just a simple list of 4 character walks that I
 
 Again all the source files can be found on github. I found the best results are to use the following commands to generate a 5GB file.
 
-<p style="padding-left: 60px;">
+```
   python Combinator.py 4_Walk_seed.txt -l 8 > 8_Walk.txt<br /> python Combinator.py 8_Walk.txt -l 16 > 16_Walk.txt
-</p>
+```
 
 You can then input the 16_Walk.txt file into your favorite password cracker with the companion rules file.
 

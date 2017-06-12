@@ -10,10 +10,9 @@ categories:
   - Certifications
   - Reviews
 ---
-<address style="text-align: center;">
+<p style="text-align: center;">
   <em>&#8220;We are happy to inform you that you have successfully completed the Penetration Testing with Kali Linux certification challenge </em><em>and have obtained your Offensive Security Certified Professional (OSCP) certification.&#8221;</em>
-</address>
-
+</p>
 &nbsp;
 
 I recently completed the Penetration Testing with Kali (PWK) course and exam to gain the Offensive Security Certified Professional (OSCP) certification, and it was one of the most rewarding certifications that I&#8217;ve done. There have already been many reviews on the course, and instead of  just reiterating what has [been said before](http://www.offensive-security.com/testimonials-and-reviews/) I would like to add some lessons I learned while going through the PWK course, lab, and exam.
