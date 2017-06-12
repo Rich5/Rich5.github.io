@@ -21,7 +21,7 @@ Source code: <https://github.com/Rich5/Harness>
 
 **pyHashcat**
 
-A small Python module that acts as a simple wrapper to oclHashcat.
+Python bindings for hashcat
 
 Source code: <a title="https://github.com/Rich5/pyHashcat" href="https://github.com/Rich5/pyHashcat" target="_blank">https://github.com/Rich5/pyHashcat</a>
 
