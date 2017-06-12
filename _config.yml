@@ -1,6 +1,1 @@
-theme: jekyll-theme-minimal
-url: http://bytesdarkly.com
 
-name: Bytes Darkly
-description: For now we see through...
-permalink: /:categories/:year/:month/:title.html
