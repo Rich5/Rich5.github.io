@@ -52,19 +52,20 @@ Below are a few examples of what it looks like to use pyHashcat. It runs without
 &nbsp;
 
 ```
-'''&lt;br />
-From: cudaExample0.cmd without context manager&lt;br />
-'''&lt;br />
-import pyHashcat&lt;br />
-hashcat = pyHashcat.oclHashcatWrapper(path_to_exe, gcard_type='ocl', verbose=True)&lt;br />
-hashcat.hash_file = "example0.hash"&lt;br />
-hashcat.markov_threshold = 32&lt;br />
-hashcat.words_files.append("example.dict")&lt;br />
-hashcat.mask = "?a?a?a?a"&lt;br />
-hashcat.hybrid_mask_dict()&lt;br />
-while hashcat.is_running():&lt;br />
-print hashcat.stdout()&lt;br />
-hashcat.stop()&lt;br />
+'''
+From: cudaExample0.cmd without context manager
+
+'''
+import pyHashcat&lt
+hashcat = pyHashcat.oclHashcatWrapper(path_to_exe, gcard_type='ocl', verbose=True)
+hashcat.hash_file = "example0.hash"
+hashcat.markov_threshold = 32
+hashcat.words_files.append("example.dict")
+hashcat.mask = "?a?a?a?a"
+hashcat.hybrid_mask_dict()
+while hashcat.is_running():
+print hashcat.stdout()
+hashcat.stop()
 ```
 ```
 
