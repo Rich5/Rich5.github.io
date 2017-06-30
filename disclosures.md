@@ -17,7 +17,7 @@ description: "List of vulnerabiliy diclosures"
 * CVE-2016-1554 - ArgGIS code injection from scripting
 * CVE-2016-5061 - Aternity XSS
 * CVE-2016-5062 - Aternity RCE
-* CVE-2017-8952 - HPE SiteScope Authentication issue, Remote Arbitrary Code Execution
+* CVE-2017-8952 - HPE SiteScope Authentication issue, Remote Arbitrary Code Execution (duplicate of ZDI-12-176 findings in new version)
 * CVE-2017-8949 - HPE SiteScope Cryptographic Issue, Local Disclosure of Sensitive Information
 * CVE-2017-8950 - HPE SiteScope Cryptographic Issue, Local Disclosure of Sensitive Information
 * CVE-2017-8951 - HPE SiteScope Local Bypass Security Restrictions
